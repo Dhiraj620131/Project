@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root {
+  
+  --colour-two: white; 
+  
+  --colour-three: orange;
+  
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url(fresh-vegetable.jpg);
+  background-repeat: repeat-y;
+}
+.login_form {
+  position: relative;
+  
+  background-image: url(download.jpg);
+
+  height: 400px;
+  width: 700px;
+  background-repeat:initial;
+
+  overflow: hidden;
+}
+.details {
+  position: relative;
+  background: var(--colour-two);
+  height: 400px;
+  width: 350px;
+}
+.welcome {
+  position: absolute;
+  color: var(--colour-six);
+  left: 40%;
+  top: 30%;
+}
+.wrap:nth-child(1) {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  margin: 12px;
+}
+.wrap:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.wrap:nth-child(3) {
+  position: absolute;
+  top: 68%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.input {
+  border: 1px solid var(--colour-three);
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background: white;
+}
+.reset {
+  background: blueviolet;
+  position: absolute;
+  width: 80px;
+  top: 70%;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+label {
+  color:black;
+  display: block;
+}
+.button {
+  background: blueviolet;
+  position: absolute;
+  width: 80px;
+  top: 70%;
+  right: 10%;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.fox {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  height: 18%;
+}
+
+  
+
+
+
+
+

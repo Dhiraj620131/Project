@@ -1,0 +1,37 @@
+img {
+    height: 300px;
+    width: 250px;
+    border:2px solid black;
+    display:wrap;
+    align-items: center;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 10px;
+
+}
+.card1 {
+    border:2px solid blue;
+    display:wrap;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+.card2 {
+    border:2px solid black;
+    display:wrap;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+body {
+    background-color:powderblue;
+    display:inline;
+    
+}
+#pets {
+    display:flex
+}

@@ -1,0 +1,148 @@
+*{
+  font-family: 'Courier New';
+  background-color: aqua;  
+}
+h3 {
+    color: blue;
+}
+h1, h3 {
+    color: #b92b27
+}
+#login {
+    background-color: aquamarine;
+}
+#signup  {
+    background-color: blueviolet;
+}
+.follow {
+    background-color: black;
+
+}
+.upvote  {
+    color: red;
+}
+#myid p {
+    color: green
+}
+.post a {
+    color: greenyellow;
+}
+nav ul li a {
+    color: hotpink;
+}
+p + h3 {
+    color: pink;
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: antiquewhite;
+} 
+div > input {
+    background-color: darkred;
+}
+input[type="text"] {
+    color: goldenrod;
+}
+input[type="password"] {
+    color: khaki;
+}
+input[type] {
+    background-color: ghostwhite;
+
+}
+h1 {
+    color: pink;
+
+}
+#greet {
+    color: yellow;
+}
+.myclass {
+    color: brown;
+}
+div p {
+    background-color: black;
+    
+}
+.para {
+    background-color: blue;
+
+}
+/* p { */
+    /* background-color: green; */
+
+div.greetDiv .greet {
+    color: blue;
+
+}
+.greetDiv p.greet {
+    color: blue;
+}
+.greetDiv .greet {
+    color: red;
+}
+button:hover {
+    color: black;
+    background-color: aliceblue;
+}
+h3:hover {
+    text-decoration: overline;
+}
+button:active {
+    color: papayawhip
+}
+
+p:active {
+    font-weight: bold;
+    color: blueviolet;
+
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+.post:nth-of-type(n){
+    background-color:blueviolet ;
+}
+p::first-letter {
+    color: black; 
+}
+h1::first-letter {
+    color: blur;
+}
+p::selection {
+    background-color: yellow;
+}
+p:first-line {
+    color:#b92b27;
+}
+h3 {
+    background-color: aqua;
+}
+h3 {
+    background-color: black;
+}
+div {
+    border-top-right-radius: 130px;
+    /* border-radius: 50px; */
+    height: 100px;
+    border-width: 10px;
+    border-color: blue;
+    border-style: double;
+    border: 2px solid black;
+    border-left-color: blueviolet;
+    border-left-style: dashed;
+    padding-left: 10px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    /* margin-top: 30px; */
+    /* margin: 30px; */
+    /* margin: 10px 20px 30px 40px; */
+
+
+    width: 100px;
+}
+button {
+    padding: 10px 3px 5px 6px;
+    border-radius: 20px;
+}
